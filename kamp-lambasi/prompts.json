@@ -1,0 +1,1202 @@
+[
+ {
+  "id": 1,
+  "theme": "Cadir_Ici",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Wide establishing shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, inside a cozy dome tent with sleeping bags and a book. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 2,
+  "theme": "Cadir_Ici",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Close-up shot with shallow depth of field of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, inside a cozy dome tent with sleeping bags and a book. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 3,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Low-angle shot of a frosted glass globe camping lamp with a leather strap as the hero light source, inside a canvas bell tent with rugs and pillows. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 4,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Top-down overhead view of a collapsible olive-green silicone LED lantern as the hero light source, inside a canvas bell tent with rugs and pillows. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 5,
+  "theme": "Cadir_Ici",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Over-the-shoulder perspective of a rugged orange waterproof LED camping lantern as the hero light source, a person reading a map inside a small tent at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 6,
+  "theme": "Cadir_Ici",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Eye-level medium shot of a solar-powered foldable camping lantern in sand beige as the hero light source, a person reading a map inside a small tent at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 7,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Cinematic side view of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, tent interior glowing from outside at dusk, silhouette of a camper. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 8,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Drone aerial view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, tent interior glowing from outside at dusk, silhouette of a camper. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 9,
+  "theme": "Cadir_Ici",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Macro detail shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, couple playing cards inside a tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 10,
+  "theme": "Cadir_Ici",
+  "aspect": "SQUARE_1_1",
+  "prompt": "3/4 angle product-in-context shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, couple playing cards inside a tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 11,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Wide establishing shot of a frosted glass globe camping lamp with a leather strap as the hero light source, tent vestibule with boots and backpack at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 12,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Close-up shot with shallow depth of field of a collapsible olive-green silicone LED lantern as the hero light source, tent vestibule with boots and backpack at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 13,
+  "theme": "Cadir_Ici",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Low-angle shot of a rugged orange waterproof LED camping lantern as the hero light source, child in pajamas with a stuffed toy inside a family tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 14,
+  "theme": "Cadir_Ici",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Top-down overhead view of a solar-powered foldable camping lantern in sand beige as the hero light source, child in pajamas with a stuffed toy inside a family tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 15,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Over-the-shoulder perspective of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, solo hiker writing a journal inside a tiny ultralight tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 16,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Eye-level medium shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, solo hiker writing a journal inside a tiny ultralight tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 17,
+  "theme": "Cadir_Ici",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Cinematic side view of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, rain drops on the tent fly while the lantern glows inside. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 18,
+  "theme": "Cadir_Ici",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Drone aerial view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, rain drops on the tent fly while the lantern glows inside. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 19,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Macro detail shot of a frosted glass globe camping lamp with a leather strap as the hero light source, tent opening view to a starry sky from inside. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 20,
+  "theme": "Cadir_Ici",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "3/4 angle product-in-context shot of a collapsible olive-green silicone LED lantern as the hero light source, tent opening view to a starry sky from inside. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 21,
+  "theme": "Arac_Kampi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Close-up shot with shallow depth of field of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, open SUV trunk bed setup with blankets at a campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 22,
+  "theme": "Arac_Kampi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Low-angle shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, open SUV trunk bed setup with blankets at a campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 23,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Top-down overhead view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, rooftop tent on a 4x4 at twilight. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 24,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Over-the-shoulder perspective of a frosted glass globe camping lamp with a leather strap as the hero light source, rooftop tent on a 4x4 at twilight. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 25,
+  "theme": "Arac_Kampi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Eye-level medium shot of a collapsible olive-green silicone LED lantern as the hero light source, converted camper van with side door open in the forest. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 26,
+  "theme": "Arac_Kampi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Cinematic side view of a rugged orange waterproof LED camping lantern as the hero light source, converted camper van with side door open in the forest. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 27,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Drone aerial view of a solar-powered foldable camping lantern in sand beige as the hero light source, pickup truck bed camping with mattress under the stars. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 28,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Macro detail shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, pickup truck bed camping with mattress under the stars. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 29,
+  "theme": "Arac_Kampi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "3/4 angle product-in-context shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, car tailgate kitchen with a camping stove. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 30,
+  "theme": "Arac_Kampi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Wide establishing shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, car tailgate kitchen with a camping stove. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 31,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Close-up shot with shallow depth of field of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, overland vehicle with awning set up in the desert. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 32,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Low-angle shot of a frosted glass globe camping lamp with a leather strap as the hero light source, overland vehicle with awning set up in the desert. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 33,
+  "theme": "Arac_Kampi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Top-down overhead view of a collapsible olive-green silicone LED lantern as the hero light source, vintage VW-style van parked by a lake. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 34,
+  "theme": "Arac_Kampi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Over-the-shoulder perspective of a rugged orange waterproof LED camping lantern as the hero light source, vintage VW-style van parked by a lake. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 35,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Eye-level medium shot of a solar-powered foldable camping lantern in sand beige as the hero light source, hatchback car camping with fairy lights, couple relaxing. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 36,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Cinematic side view of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, hatchback car camping with fairy lights, couple relaxing. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 37,
+  "theme": "Arac_Kampi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Drone aerial view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, lantern hanging from the car's roof rack at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 38,
+  "theme": "Arac_Kampi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Macro detail shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, lantern hanging from the car's roof rack at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 39,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "3/4 angle product-in-context shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, inside a van with a small bed and lantern on the shelf. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 40,
+  "theme": "Arac_Kampi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Wide establishing shot of a frosted glass globe camping lamp with a leather strap as the hero light source, inside a van with a small bed and lantern on the shelf. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 41,
+  "theme": "Orman",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Low-angle shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, among tall pine trees at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 42,
+  "theme": "Orman",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Top-down overhead view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, among tall pine trees at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 43,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Over-the-shoulder perspective of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, on a mossy log in a misty forest. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 44,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Eye-level medium shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, on a mossy log in a misty forest. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 45,
+  "theme": "Orman",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Cinematic side view of a frosted glass globe camping lamp with a leather strap as the hero light source, hanging on a tree branch next to a hammock. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 46,
+  "theme": "Orman",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Drone aerial view of a collapsible olive-green silicone LED lantern as the hero light source, hanging on a tree branch next to a hammock. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 47,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Macro detail shot of a rugged orange waterproof LED camping lantern as the hero light source, forest trail at blue hour with hikers. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 48,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "3/4 angle product-in-context shot of a solar-powered foldable camping lantern in sand beige as the hero light source, forest trail at blue hour with hikers. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 49,
+  "theme": "Orman",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Wide establishing shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, on a wooden camp table in a redwood forest. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 50,
+  "theme": "Orman",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Close-up shot with shallow depth of field of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, on a wooden camp table in a redwood forest. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 51,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Low-angle shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, autumn forest with orange leaves on the ground. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 52,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Top-down overhead view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, autumn forest with orange leaves on the ground. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 53,
+  "theme": "Orman",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Over-the-shoulder perspective of a frosted glass globe camping lamp with a leather strap as the hero light source, deep forest clearing with a tent and fog. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 54,
+  "theme": "Orman",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Eye-level medium shot of a collapsible olive-green silicone LED lantern as the hero light source, deep forest clearing with a tent and fog. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 55,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Cinematic side view of a rugged orange waterproof LED camping lantern as the hero light source, birch forest in early morning light. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 56,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Drone aerial view of a solar-powered foldable camping lantern in sand beige as the hero light source, birch forest in early morning light. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 57,
+  "theme": "Orman",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Macro detail shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, forest campsite with a dog lying beside the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 58,
+  "theme": "Orman",
+  "aspect": "SQUARE_1_1",
+  "prompt": "3/4 angle product-in-context shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, forest campsite with a dog lying beside the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 59,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Wide establishing shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, rainforest-like green ferns around the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 60,
+  "theme": "Orman",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Close-up shot with shallow depth of field of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, rainforest-like green ferns around the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 61,
+  "theme": "Sahil",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Top-down overhead view of a solar-powered foldable camping lantern in sand beige as the hero light source, on the sand at a beach campsite at sunset. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 62,
+  "theme": "Sahil",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Over-the-shoulder perspective of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, on the sand at a beach campsite at sunset. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 63,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Eye-level medium shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, beach tent with waves in the background at twilight. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 64,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Cinematic side view of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, beach tent with waves in the background at twilight. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 65,
+  "theme": "Sahil",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Drone aerial view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, on a driftwood log at the beach at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 66,
+  "theme": "Sahil",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Macro detail shot of a frosted glass globe camping lamp with a leather strap as the hero light source, on a driftwood log at the beach at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 67,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "3/4 angle product-in-context shot of a collapsible olive-green silicone LED lantern as the hero light source, rocky coastline camp above the sea. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 68,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Wide establishing shot of a rugged orange waterproof LED camping lantern as the hero light source, rocky coastline camp above the sea. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 69,
+  "theme": "Sahil",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Close-up shot with shallow depth of field of a solar-powered foldable camping lantern in sand beige as the hero light source, friends having a beach picnic after sunset. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 70,
+  "theme": "Sahil",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Low-angle shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, friends having a beach picnic after sunset. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 71,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Top-down overhead view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, on a surfboard stand next to a beach tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 72,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Over-the-shoulder perspective of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, on a surfboard stand next to a beach tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 73,
+  "theme": "Sahil",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Eye-level medium shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, tropical beach with palm trees and a hammock at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 74,
+  "theme": "Sahil",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Cinematic side view of a frosted glass globe camping lamp with a leather strap as the hero light source, tropical beach with palm trees and a hammock at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 75,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Drone aerial view of a collapsible olive-green silicone LED lantern as the hero light source, beach bonfire nearby with the lantern on a cooler. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 76,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Macro detail shot of a rugged orange waterproof LED camping lantern as the hero light source, beach bonfire nearby with the lantern on a cooler. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 77,
+  "theme": "Sahil",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "3/4 angle product-in-context shot of a solar-powered foldable camping lantern in sand beige as the hero light source, pebble beach on a Mediterranean cove at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 78,
+  "theme": "Sahil",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Wide establishing shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, pebble beach on a Mediterranean cove at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 79,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Close-up shot with shallow depth of field of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, sea kayak pulled up on the shore next to a tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 80,
+  "theme": "Sahil",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Low-angle shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, sea kayak pulled up on the shore next to a tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 81,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Over-the-shoulder perspective of a rugged orange waterproof LED camping lantern as the hero light source, under a full moon on a hill campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 82,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Eye-level medium shot of a solar-powered foldable camping lantern in sand beige as the hero light source, under a full moon on a hill campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 83,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Cinematic side view of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, milky way sky above a tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 84,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Drone aerial view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, milky way sky above a tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 85,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Macro detail shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, moonlight reflecting on a calm lake next to the camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 86,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "3/4 angle product-in-context shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, moonlight reflecting on a calm lake next to the camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 87,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Wide establishing shot of a frosted glass globe camping lamp with a leather strap as the hero light source, stargazing couple lying on a blanket. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 88,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Close-up shot with shallow depth of field of a collapsible olive-green silicone LED lantern as the hero light source, stargazing couple lying on a blanket. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 89,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Low-angle shot of a rugged orange waterproof LED camping lantern as the hero light source, silhouette of a camper holding the lantern under the moon. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 90,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Top-down overhead view of a solar-powered foldable camping lantern in sand beige as the hero light source, silhouette of a camper holding the lantern under the moon. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 91,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Over-the-shoulder perspective of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, long-exposure star trails above a campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 92,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Eye-level medium shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, long-exposure star trails above a campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 93,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Cinematic side view of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, moonlit desert dunes camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 94,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Drone aerial view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, moonlit desert dunes camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 95,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Macro detail shot of a frosted glass globe camping lamp with a leather strap as the hero light source, crescent moon over mountains with a glowing tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 96,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "3/4 angle product-in-context shot of a collapsible olive-green silicone LED lantern as the hero light source, crescent moon over mountains with a glowing tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 97,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Wide establishing shot of a rugged orange waterproof LED camping lantern as the hero light source, telescope next to the lantern on a clear night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 98,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Close-up shot with shallow depth of field of a solar-powered foldable camping lantern in sand beige as the hero light source, telescope next to the lantern on a clear night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 99,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Low-angle shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, night meadow with fireflies and the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 100,
+  "theme": "Gece_Ay_Isigi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Top-down overhead view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, night meadow with fireflies and the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 101,
+  "theme": "Ates_Basi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Eye-level medium shot of a collapsible olive-green silicone LED lantern as the hero light source, beside a crackling campfire with friends. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 102,
+  "theme": "Ates_Basi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Cinematic side view of a rugged orange waterproof LED camping lantern as the hero light source, beside a crackling campfire with friends. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 103,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Drone aerial view of a solar-powered foldable camping lantern in sand beige as the hero light source, roasting marshmallows at a campfire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 104,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Macro detail shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, roasting marshmallows at a campfire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 105,
+  "theme": "Ates_Basi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "3/4 angle product-in-context shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, cast iron pot cooking over a campfire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 106,
+  "theme": "Ates_Basi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Wide establishing shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, cast iron pot cooking over a campfire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 107,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Close-up shot with shallow depth of field of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, guitar player by the campfire at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 108,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Low-angle shot of a frosted glass globe camping lamp with a leather strap as the hero light source, guitar player by the campfire at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 109,
+  "theme": "Ates_Basi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Top-down overhead view of a collapsible olive-green silicone LED lantern as the hero light source, family telling stories around the campfire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 110,
+  "theme": "Ates_Basi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Over-the-shoulder perspective of a rugged orange waterproof LED camping lantern as the hero light source, family telling stories around the campfire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 111,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Eye-level medium shot of a solar-powered foldable camping lantern in sand beige as the hero light source, hot coffee mugs next to the fire pit. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 112,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Cinematic side view of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, hot coffee mugs next to the fire pit. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 113,
+  "theme": "Ates_Basi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Drone aerial view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, solo camper warming hands at the fire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 114,
+  "theme": "Ates_Basi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Macro detail shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, solo camper warming hands at the fire. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 115,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "3/4 angle product-in-context shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, stone fire ring with logs and the lantern on a rock. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 116,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Wide establishing shot of a frosted glass globe camping lamp with a leather strap as the hero light source, stone fire ring with logs and the lantern on a rock. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 117,
+  "theme": "Ates_Basi",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Close-up shot with shallow depth of field of a collapsible olive-green silicone LED lantern as the hero light source, campfire embers flying into the night sky. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 118,
+  "theme": "Ates_Basi",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Low-angle shot of a rugged orange waterproof LED camping lantern as the hero light source, campfire embers flying into the night sky. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 119,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Top-down overhead view of a solar-powered foldable camping lantern in sand beige as the hero light source, wooden chairs around a fire pit at a glamping site. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 120,
+  "theme": "Ates_Basi",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Over-the-shoulder perspective of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, wooden chairs around a fire pit at a glamping site. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 121,
+  "theme": "Dag_Gol",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Cinematic side view of a frosted glass globe camping lamp with a leather strap as the hero light source, alpine lake shore campsite at sunrise. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 122,
+  "theme": "Dag_Gol",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Drone aerial view of a collapsible olive-green silicone LED lantern as the hero light source, alpine lake shore campsite at sunrise. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 123,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Macro detail shot of a rugged orange waterproof LED camping lantern as the hero light source, mountain summit camp above the clouds. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 124,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "3/4 angle product-in-context shot of a solar-powered foldable camping lantern in sand beige as the hero light source, mountain summit camp above the clouds. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 125,
+  "theme": "Dag_Gol",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Wide establishing shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, wooden dock on a lake at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 126,
+  "theme": "Dag_Gol",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Close-up shot with shallow depth of field of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, wooden dock on a lake at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 127,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Low-angle shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, canoe on the lakeside with a tent nearby. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 128,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Top-down overhead view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, canoe on the lakeside with a tent nearby. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 129,
+  "theme": "Dag_Gol",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Over-the-shoulder perspective of a frosted glass globe camping lamp with a leather strap as the hero light source, rocky mountain ridge with a tent at golden hour. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 130,
+  "theme": "Dag_Gol",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Eye-level medium shot of a collapsible olive-green silicone LED lantern as the hero light source, rocky mountain ridge with a tent at golden hour. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 131,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Cinematic side view of a rugged orange waterproof LED camping lantern as the hero light source, fishing rod and the lantern by the river. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 132,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Drone aerial view of a solar-powered foldable camping lantern in sand beige as the hero light source, fishing rod and the lantern by the river. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 133,
+  "theme": "Dag_Gol",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Macro detail shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, waterfall nearby a small campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 134,
+  "theme": "Dag_Gol",
+  "aspect": "SQUARE_1_1",
+  "prompt": "3/4 angle product-in-context shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, waterfall nearby a small campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 135,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Wide establishing shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, high plateau camp with snowy peaks behind. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 136,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Close-up shot with shallow depth of field of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, high plateau camp with snowy peaks behind. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 137,
+  "theme": "Dag_Gol",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Low-angle shot of a frosted glass globe camping lamp with a leather strap as the hero light source, reflections of mountains in a still lake at blue hour. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 138,
+  "theme": "Dag_Gol",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Top-down overhead view of a collapsible olive-green silicone LED lantern as the hero light source, reflections of mountains in a still lake at blue hour. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 139,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Over-the-shoulder perspective of a rugged orange waterproof LED camping lantern as the hero light source, canyon campsite with red rocks. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 140,
+  "theme": "Dag_Gol",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Eye-level medium shot of a solar-powered foldable camping lantern in sand beige as the hero light source, canyon campsite with red rocks. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 141,
+  "theme": "Kis_Yagmur",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Drone aerial view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, snowy winter camp with a tent covered in snow. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 142,
+  "theme": "Kis_Yagmur",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Macro detail shot of a frosted glass globe camping lamp with a leather strap as the hero light source, snowy winter camp with a tent covered in snow. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 143,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "3/4 angle product-in-context shot of a collapsible olive-green silicone LED lantern as the hero light source, lantern in the snow with falling snowflakes. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 144,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Wide establishing shot of a rugged orange waterproof LED camping lantern as the hero light source, lantern in the snow with falling snowflakes. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 145,
+  "theme": "Kis_Yagmur",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Close-up shot with shallow depth of field of a solar-powered foldable camping lantern in sand beige as the hero light source, winter cabin porch with the lantern at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 146,
+  "theme": "Kis_Yagmur",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Low-angle shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, winter cabin porch with the lantern at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 147,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Top-down overhead view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, heavy rain under a tarp shelter at camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 148,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Over-the-shoulder perspective of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, heavy rain under a tarp shelter at camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 149,
+  "theme": "Kis_Yagmur",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Eye-level medium shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, foggy rainy forest camp with puddles. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 150,
+  "theme": "Kis_Yagmur",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Cinematic side view of a frosted glass globe camping lamp with a leather strap as the hero light source, foggy rainy forest camp with puddles. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 151,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Drone aerial view of a collapsible olive-green silicone LED lantern as the hero light source, frozen lake winter camp at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 152,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Macro detail shot of a rugged orange waterproof LED camping lantern as the hero light source, frozen lake winter camp at dusk. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 153,
+  "theme": "Kis_Yagmur",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "3/4 angle product-in-context shot of a solar-powered foldable camping lantern in sand beige as the hero light source, hot tea and wool blanket in a winter tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 154,
+  "theme": "Kis_Yagmur",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Wide establishing shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, hot tea and wool blanket in a winter tent. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 155,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Close-up shot with shallow depth of field of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, northern lights over a snowy campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 156,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Low-angle shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, northern lights over a snowy campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 157,
+  "theme": "Kis_Yagmur",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Top-down overhead view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, hiker in a raincoat holding the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 158,
+  "theme": "Kis_Yagmur",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Over-the-shoulder perspective of a frosted glass globe camping lamp with a leather strap as the hero light source, hiker in a raincoat holding the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 159,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Eye-level medium shot of a collapsible olive-green silicone LED lantern as the hero light source, cozy rainy-day tent entrance with steaming cup. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 160,
+  "theme": "Kis_Yagmur",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Cinematic side view of a rugged orange waterproof LED camping lantern as the hero light source, cozy rainy-day tent entrance with steaming cup. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 161,
+  "theme": "Glamping_Aile",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Macro detail shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, luxury glamping tent with a wooden deck. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 162,
+  "theme": "Glamping_Aile",
+  "aspect": "SQUARE_1_1",
+  "prompt": "3/4 angle product-in-context shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, luxury glamping tent with a wooden deck. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 163,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Wide establishing shot of a frosted glass globe camping lamp with a leather strap as the hero light source, family picnic table dinner at a campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 164,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Close-up shot with shallow depth of field of a collapsible olive-green silicone LED lantern as the hero light source, family picnic table dinner at a campsite. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 165,
+  "theme": "Glamping_Aile",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Low-angle shot of a rugged orange waterproof LED camping lantern as the hero light source, hammock between trees with a person relaxing. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 166,
+  "theme": "Glamping_Aile",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Top-down overhead view of a solar-powered foldable camping lantern in sand beige as the hero light source, hammock between trees with a person relaxing. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 167,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Over-the-shoulder perspective of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, kids making shadow puppets with the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 168,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Eye-level medium shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, kids making shadow puppets with the lantern. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 169,
+  "theme": "Glamping_Aile",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Cinematic side view of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, romantic dinner for two at a glamping site. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 170,
+  "theme": "Glamping_Aile",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Drone aerial view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, romantic dinner for two at a glamping site. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 171,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Macro detail shot of a frosted glass globe camping lamp with a leather strap as the hero light source, group of friends playing board games at a camp table. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 172,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "3/4 angle product-in-context shot of a collapsible olive-green silicone LED lantern as the hero light source, group of friends playing board games at a camp table. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 173,
+  "theme": "Glamping_Aile",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Wide establishing shot of a rugged orange waterproof LED camping lantern as the hero light source, yurt interior with warm decor. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 174,
+  "theme": "Glamping_Aile",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Close-up shot with shallow depth of field of a solar-powered foldable camping lantern in sand beige as the hero light source, yurt interior with warm decor. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 175,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Low-angle shot of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, campground with multiple tents glowing at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 176,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Top-down overhead view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, campground with multiple tents glowing at night. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 177,
+  "theme": "Glamping_Aile",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Over-the-shoulder perspective of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, mother and child reading a story at camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 178,
+  "theme": "Glamping_Aile",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Eye-level medium shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, mother and child reading a story at camp. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 179,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Cinematic side view of a frosted glass globe camping lamp with a leather strap as the hero light source, outdoor cinema night at a glamping site. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 180,
+  "theme": "Glamping_Aile",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Drone aerial view of a collapsible olive-green silicone LED lantern as the hero light source, outdoor cinema night at a glamping site. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 181,
+  "theme": "Urun_Studyo",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "3/4 angle product-in-context shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, on a clean white background, e-commerce product photo. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 182,
+  "theme": "Urun_Studyo",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Wide establishing shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, on a clean white background, e-commerce product photo. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 183,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Close-up shot with shallow depth of field of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, on a dark moody background with dramatic rim light. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 184,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Low-angle shot of a frosted glass globe camping lamp with a leather strap as the hero light source, on a dark moody background with dramatic rim light. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 185,
+  "theme": "Urun_Studyo",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Top-down overhead view of a collapsible olive-green silicone LED lantern as the hero light source, flat lay with camping gear: compass, knife, map, mug. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 186,
+  "theme": "Urun_Studyo",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Over-the-shoulder perspective of a rugged orange waterproof LED camping lantern as the hero light source, flat lay with camping gear: compass, knife, map, mug. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 187,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Eye-level medium shot of a solar-powered foldable camping lantern in sand beige as the hero light source, on a wooden crate with rope and pine cones. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 188,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Cinematic side view of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, on a wooden crate with rope and pine cones. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 189,
+  "theme": "Urun_Studyo",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Drone aerial view of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, on a stone surface with moss, studio lighting. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 190,
+  "theme": "Urun_Studyo",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Macro detail shot of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, on a stone surface with moss, studio lighting. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 191,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "3/4 angle product-in-context shot of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, floating with dynamic splash of water showing waterproofing. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 192,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Wide establishing shot of a frosted glass globe camping lamp with a leather strap as the hero light source, floating with dynamic splash of water showing waterproofing. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 193,
+  "theme": "Urun_Studyo",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Close-up shot with shallow depth of field of a collapsible olive-green silicone LED lantern as the hero light source, product lineup of several lanterns in different colors. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 194,
+  "theme": "Urun_Studyo",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Low-angle shot of a rugged orange waterproof LED camping lantern as the hero light source, product lineup of several lanterns in different colors. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 195,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Top-down overhead view of a solar-powered foldable camping lantern in sand beige as the hero light source, hand holding the lantern against a blurred night background. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 196,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Over-the-shoulder perspective of a warm-white rechargeable hanging bulb lantern with a carabiner hook as the hero light source, hand holding the lantern against a blurred night background. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 197,
+  "theme": "Urun_Studyo",
+  "aspect": "PORTRAIT_4_5",
+  "prompt": "Eye-level medium shot of a compact cylindrical aluminum lantern with a wooden handle as the hero light source, exploded-view style showing the lantern's features. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 198,
+  "theme": "Urun_Studyo",
+  "aspect": "SQUARE_1_1",
+  "prompt": "Cinematic side view of a retro matte-black metal LED camping lantern with a wire handle as the hero light source, exploded-view style showing the lantern's features. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 199,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_16_9",
+  "prompt": "Drone aerial view of a vintage-style brass and glass camping lantern with warm flickering LED as the hero light source, lantern on a backpack strap, lifestyle detail. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ },
+ {
+  "id": 200,
+  "theme": "Urun_Studyo",
+  "aspect": "LANDSCAPE_3_2",
+  "prompt": "Macro detail shot of a frosted glass globe camping lamp with a leather strap as the hero light source, lantern on a backpack strap, lifestyle detail. Photorealistic outdoor lifestyle photography, warm lantern glow, cinematic lighting, high detail."
+ }
+]
