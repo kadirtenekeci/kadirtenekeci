@@ -18,3 +18,9 @@ reduced-motion, sadece `transform`/`opacity`) paylaşır.
 - Varsayılan model Claude Opus 5.5 (effort `medium`); Claude Sonnet 5.5 daha ucuz bir seçenek.
 - İlk sonuçtan sonra düzeltme istekleri aynı sohbette devam eder; "Yeni sohbet" sıfırlar.
 - Üretilen kod `sandbox="allow-scripts"` bir iframe içinde çalışır.
+
+## claude.ai sürümü (API anahtarı gerekmez)
+
+`motion-designer/artifact.html`, claude.ai'de Artifact olarak yayınlanan sürümdür. Claude'a
+açan kişinin kendi Claude hesabıyla bağlanır, bu yüzden API anahtarı istemez. İlk kullanımda
+izin sorar ve kullanım açan kişinin Claude kotasından düşer.

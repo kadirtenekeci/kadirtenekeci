@@ -1,0 +1,463 @@
+<title>Claude Motion Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,750&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: a two-pane motion studio. Brief + conversation on the left, stage with preview/code on the right. */
+  :root {
+    --bg: #eceef3;
+    --surface: #ffffff;
+    --ink: #15171c;
+    --muted: #5d6270;
+    --line: #d6d9e2;
+    --accent: #3450f0;
+    --accent-ink: #ffffff;
+    --stage: #f7f8fb;
+    --code: #f2f3f7;
+    --danger: #b3261e;
+    --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101217; --surface: #181b22; --ink: #eceef4; --muted: #9aa0ae; --line: #2a2e38;
+      --accent: #7f93ff; --accent-ink: #0d1020; --stage: #0c0e12; --code: #14171d; --danger: #f2b8b5;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101217; --surface: #181b22; --ink: #eceef4; --muted: #9aa0ae; --line: #2a2e38;
+    --accent: #7f93ff; --accent-ink: #0d1020; --stage: #0c0e12; --code: #14171d; --danger: #f2b8b5;
+    color-scheme: dark;
+  }
+
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font: 15px/1.5 var(--font-body);
+    padding-inline: 16px; padding-block: 0;
+    display: flex; flex-direction: column;
+  }
+  * { box-sizing: border-box; }
+  input, select, textarea, button { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  header {
+    display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+    padding-block: 14px 12px;
+  }
+  header h1 {
+    margin: 0; font: 750 22px/1.1 var(--font-display); letter-spacing: -0.01em;
+  }
+  header h1 em { font-style: normal; color: var(--accent); }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+
+  main {
+    flex: 1; min-height: 0;
+    display: grid; grid-template-columns: minmax(300px, 400px) minmax(0, 1fr); gap: 16px;
+    padding-bottom: 16px;
+  }
+  .pane { display: flex; flex-direction: column; gap: 12px; min-height: 0; min-width: 0; }
+
+  .brief {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px; display: flex; flex-direction: column; gap: 10px;
+  }
+  .label { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  textarea {
+    width: 100%; min-height: 96px; resize: vertical;
+    background: var(--stage); border: 1px solid var(--line); border-radius: 8px; padding: 10px;
+    line-height: 1.45;
+  }
+  .presets { display: flex; flex-wrap: wrap; gap: 6px; }
+  .presets button {
+    font-size: 13px; padding: 4px 10px; border-radius: 6px;
+    background: transparent; border: 1px dashed var(--line); cursor: pointer;
+  }
+  .presets button:hover { border-style: solid; border-color: var(--accent); }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .btn {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    padding: 8px 14px; cursor: pointer;
+    transition: transform 100ms var(--ease-out), border-color 100ms var(--ease-out);
+  }
+  .btn:hover { border-color: var(--muted); }
+  .btn:active { transform: scale(0.97); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+  .btn:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+  select { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 8px; }
+  .hint { margin: 0; font-size: 13px; color: var(--muted); }
+
+  .thread {
+    flex: 1; min-height: 120px; overflow: auto;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .msg { font-size: 14px; padding: 9px 12px; border-radius: 8px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .msg.user { align-self: flex-end; max-width: 90%; background: var(--accent); color: var(--accent-ink); }
+  .msg.claude { background: var(--surface); border: 1px solid var(--line); }
+  .msg.note { color: var(--muted); font-size: 13px; padding-block: 2px; }
+  .msg.error { color: var(--danger); background: transparent; border: 1px solid var(--danger); }
+
+  .stage {
+    flex: 1; min-height: 0; display: flex; flex-direction: column;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+  }
+  .toolbar {
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    padding: 8px; border-bottom: 1px solid var(--line);
+  }
+  .tab { background: transparent; border: 0; border-radius: 6px; padding: 6px 12px; cursor: pointer; color: var(--muted); }
+  .tab[aria-selected="true"] { color: var(--ink); background: var(--code); font-weight: 600; }
+  .toolbar .grow { flex: 1; }
+  .badge {
+    font: 500 11px/1 var(--font-mono); letter-spacing: 0.04em; text-transform: uppercase;
+    padding: 4px 6px; border-radius: 4px; border: 1px solid var(--line); color: var(--muted);
+  }
+  iframe { flex: 1; width: 100%; border: 0; background: var(--stage); min-height: 280px; }
+  pre {
+    flex: 1; margin: 0; overflow: auto; padding: 14px; background: var(--code);
+    font: 12.5px/1.55 var(--font-mono); white-space: pre-wrap; overflow-wrap: anywhere; min-height: 280px;
+  }
+
+  /* Easing token strip: the vocabulary every generated animation uses */
+  .tokens { display: flex; gap: 8px; flex-wrap: wrap; }
+  .token {
+    display: flex; align-items: center; gap: 8px; padding: 6px 10px 6px 6px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+    font: 12px/1.2 var(--font-mono); color: var(--muted);
+  }
+  .token b { color: var(--ink); font-weight: 500; }
+  .token svg { width: 28px; height: 28px; flex: none; }
+  .token svg path { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linecap: round; }
+  .token svg rect { fill: var(--code); }
+
+  @media (max-width: 820px) {
+    html, body { height: auto; }
+    main { grid-template-columns: 1fr; }
+    .stage { min-height: 70vh; }
+    .thread { max-height: 40vh; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition-duration: 1ms !important; }
+  }
+</style>
+
+<header>
+  <h1>Claude <em>Motion</em> Designer</h1>
+  <p>Anlat, Claude canlandırsın. Kod, önizleme ve düzeltmeler tek yerde.</p>
+</header>
+
+<main>
+  <section class="pane">
+    <div class="brief">
+      <label class="label" for="prompt">Ne canlandıralım?</label>
+      <textarea id="prompt" placeholder="Örn: 'Kadir Tenekeci' yazısını çizgiyle çizerek ortaya çıkaran, sonunda 2 sn bekleyen logo animasyonu"></textarea>
+      <div class="presets" aria-label="Hazır fikirler">
+        <button type="button" data-preset="Sonsuz döngüde, 3 noktadan oluşan zarif bir yükleniyor animasyonu">Loader</button>
+        <button type="button" data-preset="'Kadir Tenekeci' yazısını harf harf çizerek ortaya çıkaran bir logo reveal, sonunda 2 sn beklesin">Logo reveal</button>
+        <button type="button" data-preset="GitHub profil README'si için 'Hi, I'm Kadir' yazan, JavaScript içermeyen animasyonlu SVG banner, 840x200">README banner</button>
+        <button type="button" data-preset="Tıklanınca kalbin dolduğu, küçük parçacık patlamalı bir beğen butonu mikro etkileşimi">Beğen butonu</button>
+        <button type="button" data-preset="Dört kartın sırayla (stagger) aşağıdan yükselerek geldiği bir liste giriş animasyonu">Stagger liste</button>
+      </div>
+      <div class="row">
+        <button type="button" id="generate" class="btn primary">Oluştur</button>
+        <button type="button" id="stop" class="btn" hidden>Durdur</button>
+        <button type="button" id="reset" class="btn">Yeni animasyon</button>
+        <select id="tier" aria-label="Model">
+          <option value="complex">En yetenekli model</option>
+          <option value="default">Dengeli model</option>
+        </select>
+      </div>
+      <p class="hint">İlk sonuçtan sonra "daha yavaş", "rengi mor yap" gibi düzeltmeler yaz, aynı animasyon üzerinde devam eder. Ctrl/⌘ + Enter ile gönder.</p>
+    </div>
+    <div class="thread" id="thread" aria-live="polite"></div>
+  </section>
+
+  <section class="pane">
+    <div class="stage">
+      <div class="toolbar" role="tablist">
+        <button type="button" class="tab" role="tab" aria-selected="true" data-tab="preview" id="tab-preview">Önizleme</button>
+        <button type="button" class="tab" role="tab" aria-selected="false" data-tab="code" id="tab-code">Kod</button>
+        <span class="badge" id="badge">Örnek</span>
+        <span class="grow"></span>
+        <button type="button" id="replay" class="btn">↻ Tekrar oynat</button>
+        <button type="button" id="copy" class="btn">Kopyala</button>
+        <button type="button" id="download" class="btn" hidden>İndir</button>
+      </div>
+      <iframe id="preview" title="Animasyon önizlemesi" sandbox="allow-scripts"></iframe>
+      <pre id="code" hidden></pre>
+    </div>
+    <div class="tokens" aria-label="Kullanılan easing token'ları">
+      <div class="token"><svg viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="5"/><path d="M4 24 C 8.5 4, 12.4 4, 24 4"/></svg><span><b>ease-out</b> girişler</span></div>
+      <div class="token"><svg viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="5"/><path d="M4 24 C 18 24, 20.8 24, 24 4"/></svg><span><b>ease-in</b> çıkışlar</span></div>
+      <div class="token"><svg viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="5"/><path d="M4 24 C 17 24, 11 4, 24 4"/></svg><span><b>ease-in-out</b> yer değiştirme</span></div>
+      <div class="token"><svg viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="5"/><path d="M4 24 C 10.8 -7.2, 16.8 4, 24 4"/></svg><span><b>ease-back</b> sıçrama</span></div>
+      <div class="token" style="padding-left:10px"><span><b>100 · 200 · 320 · 560 · 900</b> ms</span></div>
+    </div>
+  </section>
+</main>
+
+<script>
+  const RULES = `You are Claude Motion Designer: a senior motion designer who ships code. Reply in the user's language.
+
+Turn the user's brief into ONE self-contained animation file.
+
+Reply format:
+1. One or two short sentences: the concept and any defaults you chose.
+2. A compact beat sheet, one line per beat: start–end ms, element, property, curve.
+3. The complete file in one fenced code block: \`\`\`html for web pages, or \`\`\`svg for README/SVG banners.
+
+Motion tokens, use only these:
+--dur-xs 100ms, --dur-sm 200ms, --dur-md 320ms, --dur-lg 560ms, --dur-xl 900ms
+--ease-out cubic-bezier(0.16,1,0.3,1) (entering, default)
+--ease-in cubic-bezier(0.7,0,0.84,0) (leaving)
+--ease-in-out cubic-bezier(0.65,0,0.35,1) (moving on screen, loops)
+--ease-back cubic-bezier(0.34,1.56,0.64,1) (playful overshoot)
+linear only for continuous rotation or progress.
+
+Rules:
+- Declare tokens and colors as CSS custom properties at the top so they are easy to tune.
+- Animate only transform, opacity, clip-path, filter (sparingly) and SVG stroke-dashoffset. Never width/height/top/left/margin.
+- Overlap beats with a 30–60ms stagger; exits 20–30% shorter than entrances; nothing over about 1s for UI.
+- animation-fill-mode: both. Loops must be seamless.
+- Include a prefers-reduced-motion fallback whose end state is still correct.
+- No external libraries, fonts, images or network requests. System font stack only.
+- SVG for GitHub READMEs: no JavaScript, CSS @keyframes inside <style> only.
+- It must look good centered in any viewport, including 360px wide, on its own background.
+- One-shot storytelling pieces hold the final frame; loop only when asked.
+- When the user asks for a change, return the FULL updated file, never a diff.`;
+
+  const SAMPLE = {
+    lang: "html",
+    source: `<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --dur-lg: 560ms;
+    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+    --bg: #f7f8fb; --dot: #3450f0;
+  }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0c0e12; --dot: #7f93ff; } }
+  html, body { height: 100%; margin: 0; }
+  body { display: grid; place-items: center; background: var(--bg); }
+  .loader { display: flex; gap: 14px; }
+  .loader span {
+    width: 16px; height: 16px; border-radius: 50%; background: var(--dot);
+    animation: bob calc(var(--dur-lg) * 2) var(--ease-in-out) infinite both;
+  }
+  .loader span:nth-child(2) { animation-delay: 120ms; }
+  .loader span:nth-child(3) { animation-delay: 240ms; }
+  @keyframes bob {
+    0%, 60%, 100% { transform: translateY(0) scale(1); opacity: .45; }
+    30% { transform: translateY(-14px) scale(1.1); opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .loader span { animation: none; opacity: 1; }
+  }
+</style>
+</head>
+<body>
+  <div class="loader" role="status" aria-label="Yükleniyor"><span></span><span></span><span></span></div>
+</body>
+</html>`,
+  };
+
+  const $ = (id) => document.getElementById(id);
+  const els = {
+    prompt: $("prompt"), generate: $("generate"), stop: $("stop"), reset: $("reset"), tier: $("tier"),
+    thread: $("thread"), preview: $("preview"), code: $("code"), badge: $("badge"),
+    replay: $("replay"), copy: $("copy"), download: $("download"),
+  };
+
+  let sample = null;      // resolved `sample` capability, or null
+  let downloads = null;   // resolved `downloads` capability, or null
+  let turns = [];         // conversation the page keeps (Claude keeps nothing between calls)
+  let current = SAMPLE;
+  let ctl = null;
+  let isSample = true;
+
+  function addMsg(text, cls) {
+    const div = document.createElement("div");
+    div.className = "msg " + cls;
+    div.textContent = text;
+    els.thread.appendChild(div);
+    els.thread.scrollTop = els.thread.scrollHeight;
+    return div;
+  }
+
+  // Last fenced html/svg block. While streaming, an unclosed fence is accepted.
+  function extractCode(text) {
+    const re = /```(html|svg|xml)?[^\n]*\n([\s\S]*?)(```|$)/g;
+    let m, last = null;
+    while ((m = re.exec(text))) {
+      last = { lang: m[1] === "svg" || m[1] === "xml" ? "svg" : "html", source: m[2], closed: m[3] === "```" };
+    }
+    if (last && last.lang === "html" && /^\s*<svg[\s>]/i.test(last.source)) last.lang = "svg";
+    return last;
+  }
+  const stripCode = (text) => text.replace(/```(html|svg|xml)?[^\n]*\n[\s\S]*?(```|$)/g, "[kod → sağdaki sahnede]").trim();
+
+  function toDocument({ lang, source }) {
+    if (lang !== "svg") return source;
+    return `<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;height:100%}body{display:grid;place-items:center;background:#f7f8fb;padding:16px;box-sizing:border-box}@media (prefers-color-scheme:dark){body{background:#0c0e12}}svg{max-width:100%;height:auto}</style></head><body>${source}</body></html>`;
+  }
+
+  function render() {
+    els.preview.srcdoc = toDocument(current);
+    els.code.textContent = current.source;
+    els.badge.textContent = isSample ? "Örnek" : current.lang.toUpperCase();
+  }
+
+  function setBusy(busy) {
+    els.generate.disabled = busy;
+    els.reset.disabled = busy;
+    els.stop.hidden = !busy;
+    els.generate.textContent = busy ? "Tasarlanıyor…" : (turns.length ? "Düzelt" : "Oluştur");
+  }
+
+  function errorCopy(code) {
+    switch (code) {
+      case "not_granted": return "Bu sayfanın Claude'u kullanmasına izin verilmedi. Sayfayı yeniden açıp izin verirsen çalışır.";
+      case "sampling_disabled": return "Claude bu hesapta ya da kuruluşta bu sayfa için kullanılamıyor.";
+      case "rate_limited": return "Kullanım sınırına ulaşıldı. Biraz bekleyip tekrar dene.";
+      case "session_expired": return "Oturumun sona ermiş. Claude'a yeniden giriş yapıp tekrar dene.";
+      case "refused": return "Claude bu isteği yanıtlamadı. İsteği farklı ifade edip tekrar dene.";
+      case "prompt_too_large": return "Sohbet çok uzadı. \"Yeni animasyon\" ile baştan başla.";
+      case "empty_completion": return "Yanıt boş geldi. İsteği biraz daha kısa ya da net yazıp tekrar dene.";
+      default: return "Bağlantı sorunu oluştu. Tekrar dene.";
+    }
+  }
+
+  async function generate() {
+    const prompt = els.prompt.value.trim();
+    if (!prompt || els.generate.disabled) return;
+    if (!sample) {
+      addMsg("Bu görünümde Claude'a ulaşılamıyor. Sayfayı claude.ai içinde açınca çalışır.", "error");
+      return;
+    }
+
+    addMsg(prompt, "user");
+    els.prompt.value = "";
+    turns.push({ role: "user", content: prompt });
+    // Keep the instructions turn plus the latest six turns so the input stays small.
+    while (turns.length > 6) turns.splice(0, 2);
+
+    const out = addMsg("Düşünüyor… (ilk yanıt 10–60 sn sürebilir)", "claude");
+    setBusy(true);
+    ctl = new AbortController();
+
+    try {
+      const { text, truncated } = await sample([{ role: "user", content: RULES }, ...turns], {
+        modelTier: els.tier.value,
+        cache: false,
+        signal: ctl.signal,
+        onText: ({ text }) => {
+          out.textContent = stripCode(text) || "Kod yazılıyor…";
+          const code = extractCode(text);
+          if (code) {
+            els.code.textContent = code.source;
+            els.code.scrollTop = els.code.scrollHeight;
+          }
+        },
+      });
+      turns.push({ role: "assistant", content: text });
+
+      const code = extractCode(text);
+      if (!code) {
+        out.textContent = text;
+        addMsg("Yanıtta kod bloğu yoktu. İsteği biraz daha net yazıp tekrar dene.", "note");
+        return;
+      }
+      if (truncated) addMsg("Yanıt uzunluk sınırına takıldı, kod eksik olabilir. \"Devam et\" yazabilir ya da daha basit bir şey isteyebilirsin.", "note");
+      current = { lang: code.lang, source: code.source.trim() };
+      isSample = false;
+      render();
+    } catch (e) {
+      turns.pop(); // the unanswered user turn
+      if (e?.code === "cancelled") {
+        out.textContent = e.text ? stripCode(e.text) : "Durduruldu.";
+        out.className = "msg note";
+      } else {
+        out.textContent = errorCopy(e?.code);
+        out.className = "msg error";
+      }
+    } finally {
+      ctl = null;
+      setBusy(false);
+    }
+  }
+
+  // Wiring
+  document.querySelectorAll("[data-preset]").forEach((b) =>
+    b.addEventListener("click", () => { els.prompt.value = b.dataset.preset; els.prompt.focus(); }));
+
+  document.querySelectorAll("[data-tab]").forEach((tab) =>
+    tab.addEventListener("click", () => {
+      document.querySelectorAll("[data-tab]").forEach((t) => t.setAttribute("aria-selected", String(t === tab)));
+      const showCode = tab.dataset.tab === "code";
+      els.code.hidden = !showCode;
+      els.preview.hidden = showCode;
+    }));
+
+  els.generate.addEventListener("click", generate);
+  els.prompt.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) { e.preventDefault(); generate(); }
+  });
+  els.stop.addEventListener("click", () => ctl?.abort());
+  els.reset.addEventListener("click", () => {
+    turns = []; current = SAMPLE; isSample = true;
+    els.thread.textContent = "";
+    render(); setBusy(false);
+    els.prompt.focus();
+  });
+  els.replay.addEventListener("click", () => { els.preview.srcdoc = toDocument(current); });
+
+  els.copy.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(current.source);
+      els.copy.textContent = "Kopyalandı";
+    } catch {
+      document.querySelector('[data-tab="code"]').click();
+      const range = document.createRange();
+      range.selectNodeContents(els.code);
+      const sel = getSelection(); sel.removeAllRanges(); sel.addRange(range);
+      els.copy.textContent = "Seçildi, ⌘/Ctrl+C";
+    }
+    setTimeout(() => { els.copy.textContent = "Kopyala"; }, 1800);
+  });
+
+  els.download.addEventListener("click", async () => {
+    if (!downloads) return;
+    const filename = current.lang === "svg" ? "animasyon.svg" : "animasyon.html";
+    try {
+      await downloads.save({ filename, data: current.source });
+    } catch (e) {
+      if (e?.code === "unavailable" || e?.code === "not_granted") els.download.hidden = true;
+      else if (e?.code !== "declined") addMsg("Dosya kaydedilemedi. Kopyala düğmesini kullanabilirsin.", "note");
+    }
+  });
+
+  render();
+
+  (async () => {
+    if (!window.claude?.use) {
+      addMsg("Bu sayfa Claude'a claude.ai içinden bağlanır. Buradan açtığında örneği görebilirsin ama yeni animasyon oluşturamazsın.", "note");
+      return;
+    }
+    [sample, downloads] = await Promise.all([
+      window.claude.use("sample").catch(() => null),
+      window.claude.use("downloads").catch(() => null),
+    ]);
+    els.download.hidden = !downloads;
+    if (!sample) {
+      els.generate.disabled = true;
+      addMsg("Bu görünümde Claude'a ulaşılamıyor, yalnızca örneği görebilirsin.", "note");
+    }
+  })();
+</script>
