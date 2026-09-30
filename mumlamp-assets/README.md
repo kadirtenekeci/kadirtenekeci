@@ -3,8 +3,8 @@
 Görseller Canva'da üretildi ve Canva'daki `Mumlamp assets` klasörüne (products / hero / scenes) konuldu:
 https://www.canva.com/folder/FAHWnc3n35E
 
-JPG dosyaları bu klasörlere henüz eklenmedi: oturumun ağ politikası `media.canva.com` adresini engelliyor.
-Hedef: JPG, en uzun kenar en fazla 1600 px, ~400 KB (`shrink.py`).
+JPG dosyaları bu klasörlerde (Canva'dan dışa aktarıldı).
+Format: JPG, en uzun kenar en fazla 1600 px, en fazla 400 KB (`shrink.py`).
 
 ## products/ (dosya adları Mumlamp `docs/product-images.md` ile aynı)
 
