@@ -5,6 +5,9 @@ from PIL import Image
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 def variants(url, w, h):
+    yield url
+    if "export-download" in url:
+        return
     full = re.sub(r"height:\d+", f"height:{h}", url)
     full = re.sub(r"width:\d+", f"width:{w}", full)
     full = full.replace("quality:75", "quality:95")
